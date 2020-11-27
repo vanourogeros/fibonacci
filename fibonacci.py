@@ -1,7 +1,5 @@
 import time
 
-#def fib_recursive(target, initial, in_value):
-
 def fib_memoization(n, dictionary):
   if n in dictionary.keys():
       return dictionary[n]
